@@ -1,0 +1,9 @@
+FROM n8nio/n8n:latest
+
+ENV N8N_BASIC_AUTH_USER=admin
+ENV N8N_BASIC_AUTH_PASSWORD=securepassword
+ENV N8N_PORT=5678
+ENV N8N_HOST=0.0.0.0
+ENV WEBHOOK_TUNNEL_URL=https://trans-col.onrender.com
+ENV GENERIC_TIMEZONE=Europe/Berlin
+ENV N8N_RUNNERS_ENABLED=true
